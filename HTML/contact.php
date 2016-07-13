@@ -8,7 +8,7 @@
  */
 
 // please change this to your E-Mail address
-$sendTo = "your-email@company.com";
+$sendTo = "info@eloquentcreationscatering.com";
 
 $action = $_POST['action'];
 if ($action == 'contact') {
