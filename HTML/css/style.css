@@ -756,7 +756,7 @@ a.more-details .fa{
     background-image: url('../img/page-titles/page-title-2.jpg');  
 }
 .page-title-3 {
-    background-image: url('../img/page-titles/page-title-3.jpg');  
+    background-image: url('../img/page-titles/page-title-purple.jpg');  
 }
 .page-title-4 {
     background-image: url('../img/page-titles/page-title-4.jpg');  
@@ -3446,7 +3446,7 @@ textarea:-ms-input-placeholder {
 #footer-wrapper {
     position: relative;
     background-color: #0b0e13;
-    background-image: url('../img/pics/footer-bkg-img1.png'), url('../img/pics/footer-bkg-img2.png');
+    background-image: none;
     background-position: left 60px, right 60px;
     background-repeat: no-repeat;
     width: 100%;
