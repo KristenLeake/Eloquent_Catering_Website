@@ -490,7 +490,7 @@ a.more-details .fa{
     margin-bottom: 80px !important;
 }
 .mb-100 {
-    margin-bottom: 100px !important;
+    margin-bottom: 0px !important;
 }
 .pt-0 {
     padding-top: 0 !important;
@@ -756,7 +756,7 @@ a.more-details .fa{
     background-image: url('../img/page-titles/OGBedit160.jpg');  
 }
 .page-title-3 {
-    background-image: url('../img/page-titles/OGBedit160.jpg');  
+    background-image: url('../img/page-titles/page-title-purple.jpg');  
 }
 .page-title-4 {
     background-image: url('../img/pics/Chocolate_Strawberries.jpg');  
@@ -855,7 +855,7 @@ a.more-details .fa{
     background-image: url('../img/pics/bkg-img13.jpg');  
 }
 .bkg-img14 {
-    background-image: url('../img/pics/bkg-img14.png');  
+    background-image: url('');  
 }
 .bkg-img15 {
     background-image: url('../img/pics/bkg-img15.jpg');  
@@ -3446,7 +3446,7 @@ textarea:-ms-input-placeholder {
 #footer-wrapper {
     position: relative;
     background-color: #0b0e13;
-    background-image: url('../img/pics/footer-bkg-img1.png'), url('../img/pics/footer-bkg-img2.png');
+    background-image: none;
     background-position: left 60px, right 60px;
     background-repeat: no-repeat;
     width: 100%;
