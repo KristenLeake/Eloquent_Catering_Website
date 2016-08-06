@@ -542,17 +542,22 @@ a.more-details .fa{
     z-index: 1000;
 }
 .resize-header {
-    background-color: rgba(0,0,0,0.90);
+    background-color: rgba(79,45,141,1);
+    /*rgba(0,0,0,0.90);*/
     -webkit-animation: headerFadeIn 0.4s forwards;
     animation: headerFadeIn 0.4s forwards;
 }
 @-webkit-keyframes headerFadeIn {
     from { background-color: rgba(0,0,0,0.0); }
-    to { background-color: rgba(0,0,0,0.90); }
+    to { background-color: rgba(79,45,141,1); }
+
+        /*rgba(0,0,0,0.90); }*/
 }
 @keyframes headerFadeIn {
     from { background-color: rgba(0,0,0,0.0); }
-    to { background-color: rgba(0,0,0,0.90); }
+    to { background-color: rgba(79,45,141,1); }
+
+        /*rgba(0,0,0,0.90); }*/
 }
 .resize-header .logo {
     margin: 10px 0;
@@ -753,25 +758,25 @@ a.more-details .fa{
     background-image: url('../img/pics/rose_design.jpg');  
 }
 .page-title-2 {
-    background-image: url('../img/page-titles/OGBedit160.jpg');  
+    background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
 .page-title-3 {
     background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
 .page-title-4 {
-    background-image: url('../img/pics/Chocolate_Strawberries.jpg');  
+    background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
 .page-title-5 {
     background-image: url('/img/page-titles/wedding_reception.jpg');  
 }
 .page-title-6 {
-    background-image: url('../img/page-titles/OGBedit160.jpg');  
+    background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
 .page-title-7 {
-    background-image: url('../img/page-titles/OGBedit160.jpg');  
+    background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
 .page-title-8 {
-    background-image: url('../img/page-titles/OGBedit160.jpg');  
+    background-image: url('../img/page-title/page-title-darkpurple.jpg');  
 }
 
 /* ==========================================================================
@@ -3445,7 +3450,7 @@ textarea:-ms-input-placeholder {
 ========================================================================= */
 #footer-wrapper {
     position: relative;
-    background-color: #0b0e13;
+    background-color: #ffffff;
     background-image: none;
     background-position: left 60px, right 60px;
     background-repeat: no-repeat;
@@ -3482,7 +3487,7 @@ textarea:-ms-input-placeholder {
     -moz-border-radius: 50%;
 }
 #footer-wrapper .social-links li a{
-    background-color: #1d2026;
+    background-color: rgba(79,45,141,1);
 }
 #footer-wrapper .social-links li a:hover{
     background-color: #2B2F35;
@@ -3503,7 +3508,7 @@ textarea:-ms-input-placeholder {
     height: 40px;
     padding-left: 20px;
     font-size: 13px;
-    color: #acb8c4;
+    color: #c9bfdb;
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -3514,7 +3519,7 @@ textarea:-ms-input-placeholder {
 #footer-wrapper .newsletter .submit {
     position: absolute;
     padding: 8px 60px;
-    color: #0b0e13;
+    color: #c9bfdb;
     font-family: 'Montserrat', Arial, sans-serif;
     text-transform: uppercase;
     font-size: 13px;
@@ -3532,25 +3537,25 @@ textarea:-ms-input-placeholder {
     transition: all 0.2s ease 0s;
 }
 .newsletter .email::-webkit-input-placeholder {
-    color: #acb8c4;
+    color: #c9bfdb;
 }
 .newsletter .email::-moz-placeholder {
-    color: #acb8c4;
+    color: #c9bfdb;
 }
 .newsletter .email::-ms-input-placeholder {
-    color: #acb8c4;
+    color: #c9bfdb;
 }
 #copyright-container {
     position: relative;
-    background-color: #0b0e13;
-    border-top: 1px solid #161d27;
+    background-color: rgba(79,45,141,1);
+    border-top: 1px solid rgba(79,45,141,1);
     padding: 10px 0;
 }
 #copyright-container .row {
     margin-bottom: 0;
 }
 #copyright-container p {
-    color: #7f848a;
+    color: #ffffff;
     padding-bottom: 0;
     padding-top: 15px;
     font-size: 13px;
@@ -3574,7 +3579,7 @@ textarea:-ms-input-placeholder {
 }
 #copyright-container .breadcrumb li a {
     font-size: 13px;
-    color: #7f848a;
+    color: #ffffff;
 }
 #copyright-container .breadcrumb>li+li:before{
     display: none;
