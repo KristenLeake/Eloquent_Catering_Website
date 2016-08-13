@@ -760,14 +760,18 @@ a.more-details .fa{
 .page-title-2 {
     background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
+
+/* ////// 3 = menu //////*/
 .page-title-3 {
-    background-image: url('../img/page-titles/vegetables.jpg');  
+    background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
+
+/*/////// 4 = Testimonials & catering & design & menu///////*/
 .page-title-4 {
-    background-image: url('../img/page-titles/OGBedit160.jpg');  
+    background-image: url('../img/page-titles/champagne.jpg');  
 }
 .page-title-5 {
-    background-image: url('/img/page-titles/wedding_reception.jpg');  
+    background-image: url('../img/Decor1.jpg');  
 }
 .page-title-6 {
     background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
