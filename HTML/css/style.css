@@ -90,7 +90,9 @@ dd,
 del,
 details,
 dfn,
-div,
+div {
+    padding-top: ;
+}
 dl,
 dt,
 em,
@@ -202,7 +204,7 @@ a:active {
     ========================================================================= */
 body {
     font-family: 'Montserrat-UltraLight', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 23px;
     color: #777777;
     background-color: #fff;
@@ -312,7 +314,7 @@ img.float-right {
 
 p,
 a {
-    color: #777777; 
+    color: #000000; 
 }
 p,
 a,
@@ -339,7 +341,7 @@ h2,
 h3,
 h4{
     font-family: 'Suranna', serif;
-    color: #161d27;
+    color: #000;
     margin-top: 0;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -723,7 +725,7 @@ a.more-details .fa{
 }
 
 #header .dropdown-submenu > .dropdown-menu > li > a:hover {
-    background-color: #252525 !important;
+    background-color: #4f2d8d !important;
 }
 .dropdown-submenu:hover > .dropdown-menu {
     display: block;
@@ -855,9 +857,9 @@ a.more-details .fa{
     background-image: url('../img/pics/bkg-img13.jpg');  
 }
 .bkg-img14 {
-    background-image: url('../img/pics/bkg-img14.png');  
+    background-image: url('../img/eloquent_salad.jpg');  
 }
-.bkg-img15 {
+.bkg-img15{
     background-image: url('../img/pics/bkg-img15.jpg');  
 }
 .bkg-img16 {
@@ -1844,7 +1846,7 @@ ul#filters {
 .menu-left-shadow:before {
     content: "";
     position: absolute;
-    background-image: url('../img/menu-left-shadow.png');
+    background-image: url('../img/menu-left-shadow.png') ;
     background-position: 0;
     background-repeat: no-repeat;
     height: 643px;
@@ -1866,6 +1868,9 @@ ul#filters {
 .menu-background {
     border-top: 1px solid #dddddd;
     background-color: #fff;
+    background-position: ;
+    background-repeat: ;
+
 }
 
 /* ==========================================================================
@@ -1904,7 +1909,7 @@ ul#filters {
 }
 
 .menu-style-2 .menu-item-title p{
-    background-color: #fff;
+    background-color: ;
     color: #161d27;
     float: left;
     font-size: 15px;
@@ -1933,10 +1938,11 @@ ul#filters {
     width: 100%;
 }
 .menu-style-2 .menu-item-description p{
-    padding-top: 10px;
+    padding-top: 0px;
     padding-right: 175px;
     padding-bottom: 5px;
     line-height: 22px;
+    color: #777777;
 }
 .menu-left-shadow .menu-style-2 .menu-item-description p,
 .menu-right-shadow .menu-style-2 .menu-item-description p{
@@ -3573,7 +3579,7 @@ textarea:-ms-input-placeholder {
     padding: 9px 5px;
 }
 #copyright-container .breadcrumb li a {
-    font-size: 13px;
+    font-size: 11px;
     color: #7f848a;
 }
 #copyright-container .breadcrumb>li+li:before{
