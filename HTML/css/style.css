@@ -322,7 +322,7 @@ span {
 }
 p {
     padding-bottom: 15px;
-    font-size: 30px;
+    font-size: 25px;
 }
 a {
     -webkit-transition: all 0.2s ease 0s;
@@ -762,14 +762,13 @@ a.more-details .fa{
     background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
 
-/* ////// 3 = menu //////*/
+
 .page-title-3 {
     background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
 
-/*/////// 4 = Testimonials & catering & design & menu///////*/
 .page-title-4 {
-    background-image: url('..img/gallery/Krystle and Anthony Baldwin Wedding-407.jpg');  
+    background-image: url('../img/page-titles/page-title-1.jpg');  
 }
 .page-title-5 {
     background-image: url('../img/Decor1.jpg');  
@@ -778,7 +777,7 @@ a.more-details .fa{
     background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
 .page-title-7 {
-    background-image: url('../img/gallery10405550_801287273241132_3478874552777661294_n-1.jpg');  
+    background-image: url('../img/gallery/10405550_801287273241132_3478874552777661294_n-1.jpg');  
 }
 .page-title-8 {
     background-image: url('../img/page-title/page-title-darkpurple.jpg');  
