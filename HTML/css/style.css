@@ -61,10 +61,10 @@
             10.5. SHARRE WIDGET
         11. FOOTER
 */
-@font-face {
+/*@font-face {
     font-family: "Montserrat-UltraLight";
     src: url(../fonts/Montserrat-UltraLight.otf);
-}
+}*/
 
 /* ==========================================================================
     1. CSS RESET
@@ -201,8 +201,8 @@ a:active {
     2. DOCUMENT STYLES
     ========================================================================= */
 body {
-    font-family: 'Montserrat-UltraLight', Arial, sans-serif;
-    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 12px;
     line-height: 23px;
     color: #777777;
     background-color: #fff;
@@ -317,11 +317,12 @@ a {
 p,
 a,
 span {
-    font-family: 'Montserrat-UltraLight', Arial, sans-serif;
-    line-height: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 40px;
 }
 p {
     padding-bottom: 15px;
+    font-size: 30px;
 }
 a {
     -webkit-transition: all 0.2s ease 0s;
@@ -342,16 +343,16 @@ h4{
     color: #161d27;
     margin-top: 0;
     margin-bottom: 15px;
-    text-transform: uppercase;
+    
 }
 
 h5,
 h6 {
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #161d27;
     margin-top: 0;
     margin-bottom: 0;
-    text-transform: uppercase;
+    
 }
 h1 {
     font-size: 60px;
@@ -379,7 +380,7 @@ h6 {
     line-height: 15px;
 }
 h5 .sans-serif {
-    font-family: 'Montserrat', Arial, sans-serif !important;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 21px;
 }
 .dark h5 .sans-serif {
@@ -629,9 +630,9 @@ a.more-details .fa{
 }
 #header .navbar-default .navbar-nav > li > a {
     border: none;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 15px;
-    text-transform: uppercase;
+    font-family:'Cormorant Garamond', serif;
+    font-size: 22px;
+    /*text-transform: uppercase;*/
     color: #fff;
     margin: 0 4px;
 }
@@ -768,7 +769,7 @@ a.more-details .fa{
 
 /*/////// 4 = Testimonials & catering & design & menu///////*/
 .page-title-4 {
-    background-image: url('../img/page-titles/OGBedit160.jpg');  
+    background-image: url('..img/gallery/Krystle and Anthony Baldwin Wedding-407.jpg');  
 }
 .page-title-5 {
     background-image: url('../img/Decor1.jpg');  
@@ -777,7 +778,7 @@ a.more-details .fa{
     background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
 .page-title-7 {
-    background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
+    background-image: url('../img/gallery10405550_801287273241132_3478874552777661294_n-1.jpg');  
 }
 .page-title-8 {
     background-image: url('../img/page-title/page-title-darkpurple.jpg');  
@@ -1148,7 +1149,7 @@ a.more-details .fa{
     color: #fff;
 }
 .custom-heading.style-1 h3 span {
-    font-size: 36px;
+    font-size: 50px;
 }
 .custom-heading.style-1 h2 span {
     font-size: 50px;
