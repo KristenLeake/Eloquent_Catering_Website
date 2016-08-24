@@ -1571,7 +1571,7 @@ All this is done for any sub-level being entered.
         padding: 45px 50px;
     }
     .bkg-img-right, .bkg-img-left-vertical-center,.bkg-img-contain {
-        background: none;
+        
     }
     .full-screen .logo img {
         height: 160px;
@@ -1758,7 +1758,7 @@ All this is done for any sub-level being entered.
     /*  PAGE CONTENT STYLING
     --------------------------------------------------------------------- */
     .bkg-img-right, .bkg-img-left-vertical-center,.bkg-img-contain {
-        background: none;
+    
     }
     .menu-right-shadow:before,
     .menu-left-shadow:before {
