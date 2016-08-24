@@ -61,10 +61,10 @@
             10.5. SHARRE WIDGET
         11. FOOTER
 */
-@font-face {
+/*@font-face {
     font-family: "Montserrat-UltraLight";
     src: url(../fonts/Montserrat-UltraLight.otf);
-}
+}*/
 
 /* ==========================================================================
     1. CSS RESET
@@ -203,8 +203,13 @@ a:active {
     2. DOCUMENT STYLES
     ========================================================================= */
 body {
+<<<<<<< HEAD
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 12px;
+=======
     font-family: 'Montserrat-UltraLight', Arial, sans-serif;
     font-size: 20px;
+>>>>>>> 2bad3a978aa3f224eedfa26df4b28e6198d5549b
     line-height: 23px;
     color: #777777;
     background-color: #fff;
@@ -319,11 +324,12 @@ a {
 p,
 a,
 span {
-    font-family: 'Montserrat-UltraLight', Arial, sans-serif;
-    line-height: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 40px;
 }
 p {
     padding-bottom: 15px;
+    font-size: 25px;
 }
 a {
     -webkit-transition: all 0.2s ease 0s;
@@ -344,16 +350,16 @@ h4{
     color: #000;
     margin-top: 0;
     margin-bottom: 15px;
-    text-transform: uppercase;
+    
 }
 
 h5,
 h6 {
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #161d27;
     margin-top: 0;
     margin-bottom: 0;
-    text-transform: uppercase;
+    
 }
 h1 {
     font-size: 60px;
@@ -381,7 +387,7 @@ h6 {
     line-height: 15px;
 }
 h5 .sans-serif {
-    font-family: 'Montserrat', Arial, sans-serif !important;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 21px;
 }
 .dark h5 .sans-serif {
@@ -492,7 +498,7 @@ a.more-details .fa{
     margin-bottom: 80px !important;
 }
 .mb-100 {
-    margin-bottom: 100px !important;
+    margin-bottom: 0px !important;
 }
 .pt-0 {
     padding-top: 0 !important;
@@ -544,17 +550,22 @@ a.more-details .fa{
     z-index: 1000;
 }
 .resize-header {
-    background-color: rgba(0,0,0,0.90);
+    background-color: rgba(79,45,141,1);
+    /*rgba(0,0,0,0.90);*/
     -webkit-animation: headerFadeIn 0.4s forwards;
     animation: headerFadeIn 0.4s forwards;
 }
 @-webkit-keyframes headerFadeIn {
     from { background-color: rgba(0,0,0,0.0); }
-    to { background-color: rgba(0,0,0,0.90); }
+    to { background-color: rgba(79,45,141,1); }
+
+        /*rgba(0,0,0,0.90); }*/
 }
 @keyframes headerFadeIn {
     from { background-color: rgba(0,0,0,0.0); }
-    to { background-color: rgba(0,0,0,0.90); }
+    to { background-color: rgba(79,45,141,1); }
+
+        /*rgba(0,0,0,0.90); }*/
 }
 .resize-header .logo {
     margin: 10px 0;
@@ -626,9 +637,9 @@ a.more-details .fa{
 }
 #header .navbar-default .navbar-nav > li > a {
     border: none;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 15px;
-    text-transform: uppercase;
+    font-family:'Cormorant Garamond', serif;
+    font-size: 22px;
+    /*text-transform: uppercase;*/
     color: #fff;
     margin: 0 4px;
 }
@@ -752,28 +763,31 @@ a.more-details .fa{
     padding: 30px 0;
 }
 .page-title-1 {
-    background-image: url('../img/page-titles/page-title-1.jpg');  
+    background-image: url('../img/pics/rose_design.jpg');  
 }
 .page-title-2 {
-    background-image: url('../img/page-titles/page-title-2.jpg');  
+    background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
+
+
 .page-title-3 {
     background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
+
 .page-title-4 {
-    background-image: url('../img/page-titles/page-title-4.jpg');  
+    background-image: url('../img/page-titles/page-title-1.jpg');  
 }
 .page-title-5 {
-    background-image: url('../img/page-titles/page-title-5.jpg');  
+    background-image: url('../img/Decor1.jpg');  
 }
 .page-title-6 {
-    background-image: url('../img/page-titles/page-title-6.jpg');  
+    background-image: url('../img/page-titles/page-title-darkpurple.jpg');  
 }
 .page-title-7 {
-    background-image: url('../img/page-titles/page-title-7.jpg');  
+    background-image: url('../img/gallery/10405550_801287273241132_3478874552777661294_n-1.jpg');  
 }
 .page-title-8 {
-    background-image: url('../img/page-titles/page-title-8.jpg');  
+    background-image: url('../img/page-title/page-title-darkpurple.jpg');  
 }
 
 /* ==========================================================================
@@ -814,7 +828,7 @@ a.more-details .fa{
     background-position: 15px center; 
 }
 .bkg-img-contain {
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: contain;  
 }
 .bkg-img1 {
@@ -1141,7 +1155,7 @@ a.more-details .fa{
     color: #fff;
 }
 .custom-heading.style-1 h3 span {
-    font-size: 36px;
+    font-size: 50px;
 }
 .custom-heading.style-1 h2 span {
     font-size: 50px;
@@ -3451,7 +3465,7 @@ textarea:-ms-input-placeholder {
 ========================================================================= */
 #footer-wrapper {
     position: relative;
-    background-color: #0b0e13;
+    background-color: #ffffff;
     background-image: none;
     background-position: left 60px, right 60px;
     background-repeat: no-repeat;
@@ -3488,7 +3502,7 @@ textarea:-ms-input-placeholder {
     -moz-border-radius: 50%;
 }
 #footer-wrapper .social-links li a{
-    background-color: #1d2026;
+    background-color: rgba(79,45,141,1);
 }
 #footer-wrapper .social-links li a:hover{
     background-color: #2B2F35;
@@ -3509,7 +3523,7 @@ textarea:-ms-input-placeholder {
     height: 40px;
     padding-left: 20px;
     font-size: 13px;
-    color: #acb8c4;
+    color: #c9bfdb;
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -3520,7 +3534,7 @@ textarea:-ms-input-placeholder {
 #footer-wrapper .newsletter .submit {
     position: absolute;
     padding: 8px 60px;
-    color: #0b0e13;
+    color: #c9bfdb;
     font-family: 'Montserrat', Arial, sans-serif;
     text-transform: uppercase;
     font-size: 13px;
@@ -3538,25 +3552,25 @@ textarea:-ms-input-placeholder {
     transition: all 0.2s ease 0s;
 }
 .newsletter .email::-webkit-input-placeholder {
-    color: #acb8c4;
+    color: #c9bfdb;
 }
 .newsletter .email::-moz-placeholder {
-    color: #acb8c4;
+    color: #c9bfdb;
 }
 .newsletter .email::-ms-input-placeholder {
-    color: #acb8c4;
+    color: #c9bfdb;
 }
 #copyright-container {
     position: relative;
-    background-color: #0b0e13;
-    border-top: 1px solid #161d27;
+    background-color: rgba(79,45,141,1);
+    border-top: 1px solid rgba(79,45,141,1);
     padding: 10px 0;
 }
 #copyright-container .row {
     margin-bottom: 0;
 }
 #copyright-container p {
-    color: #7f848a;
+    color: #ffffff;
     padding-bottom: 0;
     padding-top: 15px;
     font-size: 13px;
@@ -3579,8 +3593,9 @@ textarea:-ms-input-placeholder {
     padding: 9px 5px;
 }
 #copyright-container .breadcrumb li a {
+
     font-size: 11px;
-    color: #7f848a;
+    color: #ffffff;
 }
 #copyright-container .breadcrumb>li+li:before{
     display: none;
