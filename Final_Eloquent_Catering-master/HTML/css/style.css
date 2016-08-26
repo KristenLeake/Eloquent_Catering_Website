@@ -216,7 +216,6 @@ body {
 }
 .row {
     margin-bottom: 100px;
-    margin-top: 25px;
 }
 .row-equal-height {
     display: table;
@@ -770,7 +769,6 @@ a.more-details .fa{
     background-image: url('../img/pics/page-title-2.jpg');  
 }
 
-
 .page-title-3 {
     background-image: url('../img/pics/page-title-3.jpg');  
 }
@@ -782,10 +780,10 @@ a.more-details .fa{
     background-image: url('../img/pics/page-title-2.jpg');  
 }
 .page-title-6 {
-    background-image: url('../img/pics/page-title-5.jpg');  
+    background-image: url('../img/pics/page-title-2.jpg');  
 }
 .page-title-7 {
-    background-image: url('../img/pics/page-title-2.jpg');  
+    background-image: url('../img/pics/page-title-5.jpg');  
 }
 .page-title-8 {
     background-image: url('../img/pics/page-title-1.jpg');  
@@ -833,7 +831,7 @@ a.more-details .fa{
     background-size: contain;  
 }
 .bkg-img1 {
-    background-image: url('../img/pics/page-title-1.jpg');  
+    background-image: url('../img/pics/bkg-img1.jpg');  
 }
 .bkg-img2 {
     background-image: url('../img/pics/bkg-img2.png');  
@@ -1836,7 +1834,7 @@ ul#filters {
     padding: 10px 0;
 }
 .menu-style-1 .menu-item-description p{
-    font-size: 10px;
+    font-size: 20px;
     line-height: 22px;
 }
 .menu-style-1 .menu-item-price {
@@ -1951,14 +1949,15 @@ ul#filters {
 .menu-style-2 .menu-item-description {
     float: left;
     width: 100%;
+
 }
 .menu-style-2 .menu-item-description p{
     padding-top: 0px;
-    font-size: 20px;
     padding-right: 175px;
     padding-bottom: 5px;
     line-height: 22px;
     color: #777777;
+    font-size: 20px;
 }
 .menu-left-shadow .menu-style-2 .menu-item-description p,
 .menu-right-shadow .menu-style-2 .menu-item-description p{
